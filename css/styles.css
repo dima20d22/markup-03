@@ -7,6 +7,28 @@ ul {
     list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 
 .cleart {
     text-decoration: none;
@@ -17,6 +39,36 @@ body {
 }
 
 /* ----------HEADER------ */
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.navi {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-link {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 93px;
+    margin-left: 215px;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
